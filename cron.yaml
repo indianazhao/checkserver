@@ -1,0 +1,5 @@
+cron:
+- description: auto check server
+  url: /check
+  schedule: every 10 minutes from 7:00 to 22:00
+  timezone: Asia/Taipei
